@@ -1,0 +1,8 @@
+development:
+  adapter: 'postgresql'
+  database: readit_dev
+  pool: 5
+  username: root
+  password:
+  host: 'localhost'
+
