@@ -1,4 +1,6 @@
 == README
 
+readit v0.1
+
 Text-to-speech reddit comments.
 

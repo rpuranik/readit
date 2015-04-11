@@ -1,1 +1,10 @@
-<div><%= @index.to_s %></div>
+<div>
+  Topic: <%= @top_askreddit_link.title %>
+</div>
+<div>
+  <% @top_comments.each do |c| %>
+    <div><%= c.to_s %></div>
+  <% end %>
+
+  <a href = "<%= @top_comment_speech.base_uri %>">Listen to top comment</a>
+</div>

@@ -8,8 +8,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'pg'
-gem 'redd'
 gem 'bundler'
+gem 'byebug'
+
+gem 'redditkit', '~> 1.0.1'
+gem 'espeak-ruby', require: 'espeak'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
